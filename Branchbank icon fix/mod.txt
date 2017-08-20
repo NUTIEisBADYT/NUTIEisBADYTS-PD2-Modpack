@@ -1,0 +1,12 @@
+{
+    "name" : "branchbank icon fix",
+    "description" : "fixes the icon",
+    "author" : "Nepgearsy",
+    "version" : "1.0",
+    "hooks" : [  
+        {
+            "hook_id" : "lib/tweak_data/preplanningtweakdata",
+            "script_path" : "mod.lua"
+        }
+    ]
+}
