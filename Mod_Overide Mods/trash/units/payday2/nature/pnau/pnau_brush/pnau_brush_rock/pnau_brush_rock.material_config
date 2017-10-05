@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="mat_pnau_brush_rock" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_brush/pnau_brush_rock/pnau_brush_rock_01_df"/>
+    </material>
+</materials>

@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="mat_pnau_brush_fern_a" render_template="generic:DIFFUSE_TEXTURE:" version="2">
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_brush/pnau_brush_fern/pnau_brush_fern_01_a_df"/>
+    </material>
+    <material name="mat_pnau_brush_fern_b" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/nature/pnau/pnau_brush/pnau_brush_fern/pnau_brush_fern_01_b_df"/>
+    </material>
+</materials>

@@ -1,0 +1,45 @@
+{
+	"fs_options_menu_title" : "Full Speed Swarm",
+	"fs_options_menu_desc"  : "",
+
+	"fs_options_max_tasks_per_frame_title" : "Limit tasks executed per frame",
+	"fs_options_max_tasks_per_frame_desc" : "Default value is 50, special value 0 means no limit, modify if you have performance problem. Low values penalize cops' responsiveness.",
+
+	"fs_options_character_positioning_title" : "Character positioning",
+	"fs_options_character_positioning_desc" : "After the alarm set off, performance can be gained by decreasing the quality of the vertical positioning of characters. A restart of the heist is required for this change to be taken into account.",
+	"fs_options_character_positioning_multi_a" : "Degraded",
+	"fs_options_character_positioning_multi_b" : "Fast",
+	"fs_options_character_positioning_multi_c" : "Quality",
+
+	"fs_options_walking_quality_title" : "Walking quality",
+	"fs_options_walking_quality_desc" : "Overrides the animation quality for walking. A character is animated at least once every 2 frames on VH and every frames on Ultra. A restart of the heist is required for this change to be taken into account.",
+	"fs_options_walking_quality_multi_a" : "Original",
+	"fs_options_walking_quality_multi_b" : "Very high",
+	"fs_options_walking_quality_multi_c" : "Ultra",
+
+	"fs_options_lod_updater_title" : "LOD updater",
+	"fs_options_lod_updater_desc" : "A restart of the heist is required for this change to be taken into account.",
+	"fs_options_lod_updater_multi_a" : "Custom (fast)",
+	"fs_options_lod_updater_multi_b" : "Custom (quality)",
+	"fs_options_lod_updater_multi_c" : "Original",
+
+	"fs_options_optimized_inputs_title" : "Optimized inputs",
+	"fs_options_optimized_inputs_desc" : "Uncheck if your inputs are all messed up.",
+
+	"fs_options_fastpaced_title" : "Fast-paced game",
+	"fs_options_fastpaced_desc" : "Warning! While this mod does not add difficulty beyond what OVERKILL designed, this option actually does.\nRemove the pause between each cops' actions.",
+
+	"fs_options_instant_identify_title" : "Nervous game",
+	"fs_options_instant_identify_desc" : "Warning! While this mod does not add difficulty beyond what OVERKILL designed, this option actually does.\nCops know who you are and will identify you instantly! (Loud only.)",
+
+	"fs_options_assault_behavior_title" : "Assault behavior",
+	"fs_options_assault_behavior_desc" : "Warning! While this mod does not add difficulty beyond what OVERKILL designed, this option actually does.\nDefine the behavior of cops assigned to assault groups.",
+	"fs_options_assault_behavior_multi_a" : "Cautious",
+	"fs_options_assault_behavior_multi_b" : "Mixed",
+	"fs_options_assault_behavior_multi_c" : "Aggressive",
+
+	"fs_mutator_bigparty_name" : "Big Party",
+	"fs_mutator_bigparty_desc" : "Increase spawn levels",
+	"fs_mutator_bigparty_longdesc" : "",
+	"fs_menu_mutator_insanity_level" : "Insanity level"
+}

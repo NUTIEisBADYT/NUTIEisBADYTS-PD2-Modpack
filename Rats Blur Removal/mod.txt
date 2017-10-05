@@ -1,0 +1,14 @@
+{
+	"name": "Rats Smoke Removal",
+	"description": "Removes smoke from rats.",
+	"author": "Idk",
+	"contact": "Idk",
+	"version": "1",
+	"priority": 0,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/mission/elementblurzone",
+			"script_path": "ratsblurremoval.lua"
+		}
+	]
+}

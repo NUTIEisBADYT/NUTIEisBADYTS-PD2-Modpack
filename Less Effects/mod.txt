@@ -1,0 +1,120 @@
+{
+	"name": "Less Effects",
+	"description": "Disables various effects to improve performance for those on low end machines. Make sure you put shadows on very low or an ugly shadow will cover you!",
+	"author": "AlmostDead aka ChainSmoker",
+	"contact": "https://voat.co/v/Overkill290",
+	"version": "Alpha",
+	"priority": 0,
+
+
+
+	"hooks": [
+
+                { "hook_id": "lib/managers/menumanager", "script_path": "Menu.lua"},
+
+		{ "hook_id": "lib/units/weapons/grenades/quickflashgrenade",
+			"script_path": "quickflash.lua"
+		},
+
+      { "hook_id": "lib/managers/explosionmanager", "script_path": "explosions.lua" },
+
+  
+  { "hook_id": "lib/units/props/drill", "script_path": "drill.lua" },
+
+{ "hook_id": "core/lib/managers/coreenvironmentcontrollermanager",  "script_path": "funkymonkey.lua" },
+{ "hook_id": "core/lib/managers/viewport/coreviewportmanager",  "script_path": "funkymonkey.lua" },
+
+{ "hook_id": "core/lib/managers/coreenvironmentcontrollermanager",  "script_path": "gamecon.lua" },
+{ "hook_id": "lib/managers/gameplaycentralmanager",  "script_path": "ibrokeyou.lua"},
+
+ 
+{ "hook_id": "core/lib/managers/coreenvironmenteffectsmanager",  "script_path": "uman.lua" },
+
+
+
+
+
+{ "hook_id": "lib/managers/environmenteffectsmanager",  "script_path": "funkymonkey.lua" },
+{ "hook_id": "lib/managers/menumanager",  "script_path": "funkymonkey.lua" },
+
+
+{ "hook_id": "core/lib/managers/viewport/coreviewportmanager",  "script_path": "area.lua"},
+
+
+
+
+
+
+{ "hook_id": "core/lib/managers/viewport/coreviewportmanager", "script_path" : "funkymonkey.lua" },
+{ "hook_id": "core/lib/managers/viewport/corescriptviewport", "script_path" : "funkymonkey.lua" },
+
+{ "hook_id": "core/lib/managers/viewport/environment/coreenvironmentmanager",  "script_path": "funkymonkey.lua" },
+{ "hook_id": "core/lib/managers/coreenvironmentcontrollermanager",  "script_path": "funkymonkey.lua" },
+{ "hook_id": "core/lib/managers/viewport/environment/coreenvironmentfeeder",  "script_path": "funkymonkey.lua" },
+
+
+
+
+
+{ "hook_id": "core/lib/managers/viewport/environment/coreenvironmenthandler",  "script_path": "funkymonkey.lua" },
+
+
+{ "hook_id": "lib/units/weapons/sawweaponbase", "script_path": "saw.lua" },
+
+
+{ "hook_id": "lib/managers/group_ai_states/groupaistatebase", "script_path": "gspawn.lua" },
+{ "hook_id": "lib/units/enemies/cop/copdamage", "script_path": "cdfire.lua" },
+
+
+{ "hook_id": "lib/units/enemies/cop/actions/full_body/copactionhurt", "script_path": "copnofire.lua" },
+
+{ "hook_id": "lib/managers/firemanager", "script_path": "firem.lua" },
+
+
+{ "hook_id": "lib/units/weapons/grenades/molotovgrenade", "script_path": "molt.lua" },
+
+{ "hook_id": "lib/units/weapons/grenades/molotovgrenade", "script_path": "moltsync.lua" },
+
+
+{ "hook_id": "lib/units/weapons/grenades/quickcsgrenade", "script_path": "gcs.lua" },
+
+
+{ "hook_id": "lib/managers/enemymanager", "script_path": "eman.lua" },
+
+{ "hook_id": "lib/units/weapons/trip_mine/tripminebase", "script_path": "trip.lua" },
+
+{ "hook_id": "lib/units/weapons/grenades/flashgrenade", "script_path": "flashg.lua" },
+
+{ "hook_id": "lib/units/weapons/grenades/quicksmokegrenade", "script_path": "qsmokenade.lua" },
+
+
+
+
+
+{ "hook_id": "lib/units/weapons/grenades/smokegrenade", "script_path": "regsmokenade.lua" }
+
+
+
+
+
+
+
+
+
+
+	], 
+
+"persist_scripts" : [
+        {
+            "global" : "SetVideo",
+            "script_path" : "area.lua"
+        }
+        
+    ]
+
+
+
+}
+
+
+

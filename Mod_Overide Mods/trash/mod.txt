@@ -1,0 +1,5 @@
+{
+Name:"No-Trash",
+Author:"boz",
+Description:"This mod replaces various trash/litter textures to clean-up the D.C. streets"
+}

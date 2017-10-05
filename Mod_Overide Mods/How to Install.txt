@@ -1,0 +1,1 @@
+put all folders in to your payday mod-overrides (Steam\SteamApps\common\PAYDAY 2\assets\mod_overrides)
