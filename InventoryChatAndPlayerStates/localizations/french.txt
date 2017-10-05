@@ -1,3 +1,0 @@
-{
-	"icaps_not_connected" : "Non connecté"
-}
